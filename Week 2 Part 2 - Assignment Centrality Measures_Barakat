@@ -1,0 +1,24 @@
+Name: Barakat Adigun
+Centrality Measures
+Data Source
+For this assignment, I selected the Marvel Universe Social Network dataset available on Kaggle.
+Dataset: Marvel Universe Social Network
+Source: https://www.kaggle.com/datasets/csanhueza/the-marvel-universe-social-network
+The dataset represents a social network where:
+Nodes: Marvel characters
+Edges: Connections between characters who appear together in comic books
+Categorical Variable: Character alignment (Hero, Villain, Neutral) or Gender (Male, Female)
+This dataset is well suited for network analysis because it contains many connected characters and includes categorical information that can be compared using centrality measures.
+High-Level Plan
+If I were conducting the analysis, I would complete the following steps:
+Download the dataset from Kaggle.
+Load the node and edge files into Python using the pandas library.
+Create a graph using NetworkX.
+Assign the categorical variables (such as alignment or gender) as node attributes.
+Calculate degree centrality for every character.
+Compare the average degree centrality across the different categorical groups.
+Visualize the network and summarize the findings using graphs and tables.
+Hypothetical Outcome
+Degree centrality could be used to predict which category of characters is the most influential within the Marvel Universe. I would expect heroes to have higher average degree centrality because they typically interact with many different characters throughout multiple comic storylines. Villains may have lower average degree centrality because they often appear within smaller groups or specific story arcs. Comparing degree centrality across these categorical groups could provide insight into which types of characters are the most connected within the network.
+Conclusion
+The Marvel Universe Social Network dataset provides an appropriate network for comparing degree centrality across categorical groups. Although this assignment does not require implementing the analysis, the proposed workflow demonstrates how the dataset could be prepared and analyzed to investigate differences in network connectivity and influence.
